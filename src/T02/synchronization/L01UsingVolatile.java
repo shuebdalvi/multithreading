@@ -25,6 +25,7 @@ public class L01UsingVolatile {
 class StoppableThread extends Thread 
 {
 	// volatile is used to indicate that a variable's value will be modified by different threads.
+	// references marked as volatile are fetched everytime from main memory and not from cached thread memory which is used to optimse the performance
 	// refer http://www.javamex.com/tutorials/synchronization_volatile.shtml
 	// refer http://tutorials.jenkov.com/java-concurrency/volatile.html
 	private volatile boolean running = true;

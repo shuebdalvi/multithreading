@@ -3,10 +3,10 @@ package T01.startingthreads;
 public class L01ExtendingThread {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Thread t1 = new RunMe();
 		// if t1.run() is called, then the method will execute in this same thread immediately
-		System.out.println("GOing to start thread t1");		
+		System.out.println("Going to start thread t1");		
 		t1.start();
 		System.out.println("Started the thread t1");
 		// starting it again gives illegelStateException

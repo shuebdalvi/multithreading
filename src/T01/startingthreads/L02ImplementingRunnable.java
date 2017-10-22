@@ -8,6 +8,7 @@ public class L02ImplementingRunnable {
 		
 		Thread t2 = new Thread(new RunMe2());
 		t2.start();
+		
 	}
 }
 
